@@ -14,7 +14,11 @@ const Header = ({ data }) => {
                 <p>{ data ? data.paragraph1 : "Loading"}
                   <br/>{ data ? data.paragraph2 : "Loading"}
                 </p>
-                <a href="#features" className="btn btn-custom btn-lg page-scroll">Learn More</a>
+                <a href="#features" className="btn btn-default page-scroll sm-mt-30 btn-xs-block">More...</a>
+                <a href="#features" className="btn btn-primary page-scroll sm-ml-30 xs-mt-30 btn-xs-block">
+                  <i class="fa fa-facebook-f xs-pr-15"></i>Login with Facebook</a>
+                <a href="#features" className="btn btn-danger page-scroll sm-ml-30 xs-mt-30 btn-xs-block">
+                  <i class="fa fa-google xs-pr-15"></i>Login with Google</a>
               </div>
             </div>
           </div>
